@@ -1,0 +1,144 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4.4vw;
+    padding-top: 0.8vh;
+    padding-bottom: 0.8vh;
+    position: absolute;
+    width: 95.5vw;
+    height: 6.25vh;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+}
+
+#logo-text {
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+#logocompany {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+#search {
+    width: 36.7vw;
+    height: 4.7vh;
+    margin: 0 0 0 26vw;
+    position: absolute;
+    border-radius: 4px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 58vw;
+    position: absolute;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.signin {
+    margin: 0 0 0 76vw;
+    position: absolute;
+    display: flex;
+}
+
+.price {
+    margin: 0 0 0 84vw;
+    position: absolute;
+    display: flex;
+}
+
+#signlogo {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 3px solid white;
+    left: 7px;
+    position: absolute;
+}
+
+#body {
+    width: 21px;
+    height: 21px;
+    border: 3px solid white;
+    top: 22px;
+    left: 5px;
+    position: absolute;
+    border-radius: 35%;
+}
+
+#star {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    color: yellow;
+    font-size: 150%;
+}
+
+img {
+    width: 45px;
+    height: 45px;
+}
+
+@media (max-width: 500px) {
+    .header {
+        display: block;
+        width: 100vw;
+        height: 12vh;
+        background-color: black;
+        color: white;
+        position: relative;
+    }
+    #logo-text,
+    .signin p {
+        display: none;
+    }
+    .header h1 {
+        position: absolute;
+        top: 0;
+    }
+    #signlogo {
+        position: absolute;
+        left: -100px;
+        top: 5px;
+    }
+    .price {
+        position: absolute;
+        left: -60px;
+        top: 10px;
+    }
+    #search {
+        width: 80vw;
+        position: absolute;
+        bottom: 10px;
+        left: -15vw;
+    }
+    .search-icon {
+        position: absolute;
+        display: none;
+        left: 0;
+        left: 100px;
+        top: 70px;
+    }
+}

@@ -1,0 +1,23 @@
+.cartitem {
+    width: 35vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: scroll;
+    position: relative;
+    margin-left: -25px;
+}
+
+@media (max-width: 500px) {
+    .cartitem {
+        width: 90vw;
+        height: 16vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow-y: scroll;
+        position: relative;
+        margin-left: -25px;
+    }
+}

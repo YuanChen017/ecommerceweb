@@ -1,0 +1,200 @@
+.cart {
+    position: absolute;
+    width: 40vw;
+    height: 78vh;
+    left: 60vw;
+    top: 2px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 11111111;
+}
+
+.cartheader {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    height: 61px;
+    background: #5048e5;
+    color: white;
+}
+
+.cartbody ul {
+    width: 38vw;
+    height: 27vh;
+    color: black;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.cartbody .nameandqty {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 120px;
+}
+
+.cartbody .priceandremove {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 112px;
+    height: 100px;
+}
+
+.cartbody img {
+    width: 112px;
+    height: 120px;
+}
+
+.cartheader p {
+    margin: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.discountcode input {
+    width: 351px;
+    height: 48px;
+}
+
+#cartclose {
+    margin: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 20;
+}
+
+.discountcode button {
+    width: 92px;
+    height: 48px;
+    background: #5048e5;
+    border-radius: 4px;
+    margin-left: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.checkout {
+    width: 458px;
+    height: 48px;
+    background: #5048e5;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+
+.pricedetails {
+    width: 510px;
+    margin: 0px 0px 10px 30px;
+    height: 15vh;
+    color: black;
+    background-color: white;
+}
+
+.pricedetails p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px 10px 20px;
+}
+
+@media (max-width: 500px) {
+    .cart {
+        position: absolute;
+        width: 100vw;
+        height: 74vh;
+        top: 13vh;
+        left: 0vw;
+        background: #ffffff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        z-index: 2;
+    }
+    .cartheader {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        height: 61px;
+        background: #5048e5;
+        color: white;
+    }
+    .cartbody ul {
+        width: 100vw;
+        height: 22vh;
+        color: black;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+    .cartbody .nameandqty {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50px;
+        height: 120px;
+    }
+    .cartbody .priceandremove {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 112px;
+        height: 100px;
+    }
+    .cartbody img {
+        width: 112px;
+        height: 120px;
+    }
+    .cartheader p {
+        margin: 10px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .discountcode input {
+        width: 60vw;
+        height: 48px;
+    }
+    #cartclose {
+        margin: 10px;
+        font-family: Inter;
+        font-style: normal;
+        font-size: 20;
+    }
+    .discountcode button {
+        width: 92px;
+        height: 48px;
+        background: #5048e5;
+        border-radius: 4px;
+        margin-left: 20px;
+        color: white;
+        font-size: 18px;
+    }
+    .checkout {
+        width: 85vw;
+        height: 48px;
+        background: #5048e5;
+        border-radius: 4px;
+        color: white;
+        font-size: 18px;
+        position: relative;
+    }
+    .pricedetails {
+        width: 95vw;
+        margin: 0px 0px 10px 30px;
+        height: 15vh;
+        color: black;
+        background-color: white;
+    }
+    .pricedetails p {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 70px 10px 20px;
+    }
+}

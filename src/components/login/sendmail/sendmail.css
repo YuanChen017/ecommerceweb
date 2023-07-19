@@ -1,0 +1,74 @@
+.modalborder-mail {
+    width: 600px;
+    height: 528px;
+    position: absolute;
+    justify-items: center;
+    border: 1px solid gray;
+    position: absolute;
+    top: 15vh;
+    left: 34vw;
+    background: #ffffff;
+    box-shadow: 0px 5px 16px 1px rgba(229, 229, 229, 0.8);
+    border-radius: 10px;
+}
+
+.mainmodal-mail img {
+    position: absolute;
+    width: 58.33px;
+    height: 55.42px;
+    top: 158px;
+    left: 270.83px;
+}
+
+.mainmodal-mail p {
+    display: block;
+    width: 386px;
+    height: 42px;
+    position: absolute;
+    top: 227px;
+    left: 107px;
+    font-family: "Inter" sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: black;
+}
+
+@media (max-width: 500px) {
+    .modalborder-mail {
+        width: 90vw;
+        height: 528px;
+        margin: 5vw;
+        position: absolute;
+        justify-items: center;
+        border: 1px solid gray;
+        position: absolute;
+        top: 15vh;
+        left: 0;
+        background: #ffffff;
+        box-shadow: 0px 5px 16px 1px rgba(229, 229, 229, 0.8);
+        border-radius: 10px;
+    }
+    .mainmodal-mail img {
+        position: absolute;
+        width: 58.33px;
+        height: 55.42px;
+        top: 158px;
+        left: 40vw;
+    }
+    .mainmodal-mail p {
+        display: block;
+        width: 80vw;
+        height: 42px;
+        position: absolute;
+        top: 227px;
+        left: 5vw;
+        font-family: "Inter" sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        color: black;
+    }
+}

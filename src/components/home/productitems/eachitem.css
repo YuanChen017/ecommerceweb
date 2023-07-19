@@ -1,0 +1,100 @@
+.item {
+    width: 242px;
+    height: 303px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.item img {
+    width: 218px;
+    height: 198px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+#closebtn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border-radius: 50px;
+    background-color: white;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#info {
+    position: absolute;
+    bottom: 21px;
+    left: 20px;
+}
+
+.btns {
+    display: flex;
+    margin-left: 10px;
+}
+
+.btns button {
+    width: 102px;
+    height: 26px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#add {
+    background-color: #5048e5;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: white;
+}
+
+strong {
+    font-size: 20px;
+}
+
+#changebtn {
+    width: 110px;
+    height: 26px;
+    display: block;
+}
+
+#addqty {
+    width: 110px;
+    height: 26px;
+    color: white;
+    background-color: #5048e5;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#addqty p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+
+#addqty p span {
+    cursor: pointer;
+    width: 9px;
+    height: 9px;
+}
+
+#edit {
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}

@@ -1,0 +1,29 @@
+.errorpage {
+    width: 90vw;
+    height: 70vh;
+    margin: 12vh 5vw 12vh 5vw;
+    border: 1px solid gray;
+}
+
+.erroritem {
+    margin: 20vh 5vw 15vh 5vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.erroritem button {
+    width: 235px;
+    height: 48px;
+    background: #5048e5;
+    border-radius: 4px;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .errorpage {
+        width: 90vw;
+        height: 70vh;
+        margin: 10px;
+        border: 1px solid gray;
+    }
+}

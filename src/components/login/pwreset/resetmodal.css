@@ -1,0 +1,58 @@
+.title h1 {
+    margin: 44px 120px 42px 121px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+label {
+    float: left;
+    margin-left: 48px;
+}
+
+input {
+    width: 504px;
+    height: 56px;
+    padding: 12px 20px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#closebutton {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 24px;
+    right: 28px;
+    background-color: white;
+    border: none;
+}
+
+#updatepw {
+    width: 504px;
+    height: 47px;
+    background: #5048e5;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 500px) {
+    #updatepw {
+        width: 312px;
+        height: 48px;
+        background: #5048e5;
+        color: white;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+}

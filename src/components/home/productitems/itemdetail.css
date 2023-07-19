@@ -1,0 +1,101 @@
+.itemdetail {
+    position: absolute;
+    width: 84vw;
+    height: 100vh;
+    top: -10vh;
+    left: 0;
+    background-color: whitesmoke;
+    color: black;
+    z-index: 100;
+}
+
+.itemdetail h1 {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.itemdetail h1 span {
+    margin-left: 69vw;
+}
+
+.detailbody {
+    background-color: whitesmoke;
+    color: black;
+    width: 84vw;
+    height: 65vh;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detailimage img {
+    width: 36vw;
+    height: 50vh;
+    position: relative;
+    margin: 5vw;
+}
+
+.information {
+    text-align: left;
+    position: relative;
+    width: 40vw;
+    height: 50vh;
+    margin-top: 15vh;
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    width: 102px;
+    height: 26px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .itemdetail {
+        position: relative;
+        width: 100vw;
+        height: max-content;
+        left: 0;
+        background-color: whitesmoke;
+        color: black;
+        z-index: 100;
+    }
+    .detailbody {
+        background-color: white;
+        color: black;
+        width: 84vw;
+        height: max-content;
+        border: 2px solid gray;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .detailbtns {
+        width: 70vw;
+        display: flex;
+        flex-direction: row;
+    }
+    .itemdetail h1 {
+        text-align: left;
+    }
+    .itemdetail h1 span {
+        margin-left: 75vw;
+    }
+    .detailimage img {
+        width: 70vw;
+        height: 50vh;
+        position: relative;
+        margin-top: 20px;
+    }
+    .information {
+        text-align: center;
+        position: relative;
+        width: 40vw;
+        height: 50vh;
+        margin: 0 0 0 16vw;
+        font-family: "Inter", sans-serif;
+    }
+}
